@@ -1,6 +1,6 @@
 # Vue.js Weather App
 
-☔️ Client-Side Vue.js Weather App with OpenWeather API.
+☔️ Client-Side Vue.js Weather App with OpenWeatherMap API.
 
 <p align="center">
   <img src="src/assets/demo.gif" alt="Vue.js Weather App Demo"/>

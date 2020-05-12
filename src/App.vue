@@ -40,9 +40,9 @@ export default {
   metaInfo() {
         return { 
             title: "Vue.js Weather App",
-            titleTemplate: '%s - Client-Side Vue.js Weather App with OpenWeather API.',
+            titleTemplate: '%s - Client-Side Vue.js Weather App with OpenWeatherMap API.',
             meta: [
-                { name: 'description', content:  'Client-Side Vue.js Weather App with OpenWeather API.'},
+                { name: 'description', content:  'Client-Side Vue.js Weather App with OpenWeatherMap API.'},
                 { property: 'og:title', content: "Vue.js Weather App"},
                 { property: 'og:site_name', content: 'Vue.js Weather App'},
                 {property: 'og:type', content: 'website'},    
