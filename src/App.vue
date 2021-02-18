@@ -2,7 +2,7 @@
   <div id="app">
     <main class="search-box animate__animated animate__fadeInDown slower">
       <div class="header">
-        <logo>☔️</logo>
+        <div class="logo">☔️</div>
       </div>
       <div>
         <input
@@ -28,15 +28,6 @@
         </div>
       </div>
     </main>
-    <footer class="animate__animated animate__fadeIn slower">
-      made by<a href="https://github.com/mujdat"
-        ><i class="fa fa-github"></i> mujdat</a
-      >
-      / <a href="https://mujdat.dev"><i class="fa fa-globe"></i> homepage</a> /
-      <a href="https://twitter.com/mujdatkorkmaz"
-        ><i class="fa fa-twitter"></i> twitter</a
-      >
-    </footer>
   </div>
 </template>
 
@@ -153,7 +144,7 @@ main {
   text-align: center;
 }
 
-logo {
+.logo {
   font-size: 96px;
 }
 
@@ -252,7 +243,7 @@ footer a:hover {
   padding-bottom: 5px;
 }
 @media all and (max-width: 414px) {
-  logo {
+  .logo {
     font-size: 75px;
   }
   .location,
